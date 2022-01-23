@@ -63,7 +63,7 @@ const Review = ({ reviews }) => {
                                   .map((_, item) => {
                                     const star = review.star;
                                     return (
-                                      <svg
+                                      <svg key={item}
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="18"
                                         height="18"

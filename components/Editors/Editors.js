@@ -44,7 +44,7 @@ const Editors = ({ editors }) => {
                           .map((_, item) => {
                             const rating = editor.product.rating;
                             return (
-                              <svg
+                              <svg key={item}
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="18"
                                 height="18"
